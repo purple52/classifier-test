@@ -1,4 +1,6 @@
-# Demonstration of Intellij IDEA Maven classifier bug
+# Intellij IDEA Maven classifier bug
+
+This has been reported as [IDEA-155363](https://youtrack.jetbrains.com/issue/IDEA-155363).
 
 This project builds two jars for a module (`test-resource`) - one normal jar that contains the
 resources in the `src/main/resources` folder, and one with a custom Maven (`my-classifier`) that
